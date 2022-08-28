@@ -224,3 +224,8 @@
 .atag{
   text-decoration: none;
 }
+@media only screen and (max-width: 992px) {
+  .test::before {
+    top: -70px;
+  }
+  }
