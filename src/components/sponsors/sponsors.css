@@ -29,3 +29,14 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.img{
+  padding: 2rem;
+  max-width: 250px;
+}
+
+@media only screen and (max-width: 992px) {
+  .img{
+    width: 250px;
+  }
+}

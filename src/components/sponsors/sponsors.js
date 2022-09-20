@@ -16,9 +16,9 @@ export default class Sponsors extends Component {
             <h1 className="heading">SPONSORS</h1>
             <img className="line" src="/about_bg.png" width={"100%"} alt="" />
           </div>
-          <Container data-aos="slide-up" className="sponserContainer">
-            <img src={mlh} alt="Reva Logo" width="200" height="100  " />
-            <img src={logo} alt="Reva Logo" width="300" />
+          <Container data-aos="slide-up" className="sponserContainer d-flex flex-wrap">
+            <img src={mlh} className="img" alt="Reva Logo" />
+            <img src={logo} className="img" alt="Reva Logo" />
           </Container>
         </Container>
       </div>

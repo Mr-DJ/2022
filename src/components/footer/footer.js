@@ -59,7 +59,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      CODE OF CONDUCT
+                      Code of Conduct
                     </a>
                   </h2>
                 </li>
