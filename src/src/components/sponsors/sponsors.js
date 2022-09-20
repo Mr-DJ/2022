@@ -19,12 +19,23 @@ export default class Sponsors extends Component {
             <img className="line" src="/about_bg.png" width={"100%"} alt="" />
           </div>
           <Container data-aos="slide-up" className="sponserContainer">
-            <Row>
-              <Col className="center" sm={6}>
+            <Row className="justify-content-center d-flex align-items-center">
+              <Col
+                className="justify-content-center d-flex align-items-center"
+                sm
+              >
                 <img src={mlh} alt="Reva Logo" width="200" height="100 " />
               </Col>
-              <Col className="m-auto" sm={6}>
-                <img src={logo} alt="Reva Logo" width="300" />
+              <Col
+                className="justify-content-center d-flex align-items-center"
+                sm
+              >
+                <img
+                  className="justify-content-center"
+                  src={logo}
+                  alt="Reva Logo"
+                  width="300"
+                />
               </Col>
             </Row>
           </Container>
