@@ -3,8 +3,6 @@ import Container from "react-bootstrap/Container";
 import "./sponsors.css";
 import logo from "../../images/reva_logo.png";
 import mlh from "../../images/mlh-logo.png";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 export default class Sponsors extends Component {
   render() {
@@ -19,13 +17,8 @@ export default class Sponsors extends Component {
             <img className="line" src="/about_bg.png" width={"100%"} alt="" />
           </div>
           <Container data-aos="slide-up" className="sponserContainer">
-            <img src={mlh} alt="Reva Logo" width="200" height="100 " />
-            <img
-              className="justify-content-center"
-              src={logo}
-              alt="Reva Logo"
-              width="300"
-            />
+            <img src={mlh} alt="Reva Logo" width="200" height="100  " />
+            <img src={logo} alt="Reva Logo" width="300" />
           </Container>
         </Container>
       </div>

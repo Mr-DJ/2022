@@ -25,6 +25,8 @@
   color: #fff;
 }
 
-/* .sponserContainer {
+.sponserContainer {
+  display: flex;
   justify-content: space-evenly;
-} */
+  flex-wrap: wrap;
+}
