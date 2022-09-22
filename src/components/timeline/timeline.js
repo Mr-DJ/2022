@@ -19,66 +19,66 @@ export default class TimeLine extends Component {
             <div class="timeline__event__icon ">
               <i class="lni lni-cake"></i>
             </div>
-            <div class="timeline__event__date">20-08-2019</div>
+            <div style={{color:"white"}} class="timeline__event__date">11-11-2022</div>
             <div class="timeline__event__content ">
-              <div class="timeline__event__title">Lorem Ipsum</div>
+              {/* <div class="timeline__event__title">HACK BEGINS!</div> */}
               <div class="timeline__event__description">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                  nam! Nam eveniet ut aliquam ab asperiores, accusamus iure
-                  veniam corporis incidunt reprehenderit accusantium id aut
-                  architecto harum quidem dolorem in!
+                  {"<Opening Ceremony />"}<br />
+                  {"<Theme Announcement />"}<br />
+                  {"<Let The Hack Begin! />"}<br />
+
+                
                 </p>
               </div>
             </div>
           </div>
           <div class="timeline__event timeline__event--type2">
             <div class="timeline__event__icon">
-              <i class="lni lni-burger"></i>
+              {/* <i class="lni lni-burger"></i> */}
+              <i class="lni lni-fireworks"></i>
             </div>
-            <div class="timeline__event__date">20-08-2019</div>
+            <div style={{color:"white"}} class="timeline__event__date">12-11-2022</div>
             <div class="timeline__event__content">
-              <div class="timeline__event__title">Lorem Ipsum</div>
+              {/* <div class="timeline__event__title">Lorem Ipsum</div> */}
               <div class="timeline__event__description">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                  nam! Nam eveniet ut aliquam ab asperiores, accusamus iure
-                  veniam corporis incidunt reprehenderit accusantium id aut
-                  architecto harum quidem dolorem in!
+                  
+                  {"<1st Segment of Submission />"}<br />
+
                 </p>
               </div>
             </div>
           </div>
           <div class="timeline__event timeline__event--type3">
             <div class="timeline__event__icon">
-              <i class="lni lni-slim"></i>
+              {/* <i class="lni lni-slim"></i> */}
+              <i class="lni lni-calendar"></i>
             </div>
-            <div class="timeline__event__date">20-08-2019</div>
+            <div style={{color:"white"}} class="timeline__event__date">13-11-2022</div>
             <div class="timeline__event__content">
-              <div class="timeline__event__title">Lorem Ipsum</div>
+              {/* <div class="timeline__event__title">Lorem Ipsum</div> */}
               <div class="timeline__event__description">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                  nam! Nam eveniet ut aliquam ab asperiores, accusamus iure
-                  veniam corporis incidunt reprehenderit accusantium id aut
-                  architecto harum quidem dolorem in!
+                {"<Final Submission />"}<br />
+                {"<Closing Ceremony />"}<br />
                 </p>
               </div>
             </div>
           </div>
           <div class="timeline__event timeline__event--type1">
             <div class="timeline__event__icon">
-              <i class="lni lni-cake"></i>
+              {/* <i class="lni lni-cake"></i> */}
+              <i class="lni lni-unlock"></i>
             </div>
-            <div class="timeline__event__date">20-08-2019</div>
+            <div style={{color:"white"}} class="timeline__event__date">??-11-2022</div>
             <div class="timeline__event__content">
-              <div class="timeline__event__title">Lorem Ipsum</div>
+              {/* <div class="timeline__event__title">Lorem Ipsum</div> */}
               <div class="timeline__event__description">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                  nam! Nam eveniet ut aliquam ab asperiores, accusamus iure
-                  veniam corporis incidunt reprehenderit accusantium id aut
-                  architecto harum quidem dolorem in!
+                {"<Announcement of Results! />"}<br />
+
+                  
                 </p>
               </div>
             </div>
