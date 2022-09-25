@@ -1,21 +1,25 @@
-import React, { Component } from "react";
+import React from 'react'
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+
 import "./prize.css";
 
-export default class Prizes extends Component {
-  render() {
-    return (
-      <div id="prizes" className="prizes-main">
-        <Container className="prize-container">
-          <Row>
-            <h1 className="title"> PRIZES </h1>
-          </Row>
-          <Row>
-            <h2 className="details"> Coming Soon.... </h2>
-          </Row>
+
+const Prizes = () => {
+  return (
+    <div id="prizes" className='about-main d-flex align-items-center justify-content-center'>
+      <Container>
+        <div data-aos="slide-up" className='about-heading'>
+          <h1 className='heading'>Prizes</h1>
+          <img className='line' src='/about_bg.png' width={"100%"} alt='' />
+        </div>
+        <Container>
+          {/* Main Prizes Content */}
         </Container>
-      </div>
-    );
-  }
+      </Container>
+    </div>
+  )
 }
+
+export default Prizes
+
+
