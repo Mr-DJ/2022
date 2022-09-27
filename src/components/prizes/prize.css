@@ -28,8 +28,13 @@
 
 .prize {
   padding: 4rem;
+  transition: all 0.2s ease-in-out;
   border-radius: 44px;
   box-shadow: -22px -22px 54px #0c121e, 22px 22px 54px #0c121e;
+}
+
+.prize:hover {
+  box-shadow: 20px 20px 32px #0d0e18, -20px -20px 32px #0d0e18;
 }
 
 .prize-title {
