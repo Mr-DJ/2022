@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import ParticleBackground from "../../particleBackground";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import discord from "../../images/dc.png"
 
 const Landing = () => {
   useEffect(() => {
@@ -25,17 +26,24 @@ const Landing = () => {
         <div data-aos='fade-up' className='name-2'>
           <Typewriter
             options={{
-              strings: ["Coming Soon..", "The Hack Is Back.."],
+              strings: ["Innovate For a Better Tomorrow..", "The Hack Is Back.."],
               autoStart: true,
               loop: true,
             }}
           />
         </div>
         {/* After Coming soon gets over */}
-        {/* <div className='main-buttons'>
-        <button>Button 1</button>
-        <button>Button 2</button>
-      </div> */}
+        <div data-aos='fade-up' className='main-buttons'>
+        <a href="https://forms.gle/JizDPzoqmiB4M1Y88" target="_blank" rel="noreferrer">
+          <button className="landing-btn" style={{ letterSpacing : "2px" }}>Pre Register Now</button>
+          </a>
+          <a href="https://discord.gg/6Sv9ZdQ4er" target="_blank" rel="noreferrer">
+        <button className="landing-btn" style={{ letterSpacing : "2px" }}> <span>
+          Join Us On 
+          </span> 
+          <img style={{marginLeft:"10px"}} height="40px" width="40px" src={discord} alt="" /></button>
+          </a>
+      </div>
         <ParticleBackground />
       </div>
     </>
