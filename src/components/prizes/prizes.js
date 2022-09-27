@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 
-import bg from "../../images/prizes_bg.png";
+import bg from "../../images/about_bg.png";
 
 import "./prize.css";
 
@@ -9,9 +9,9 @@ const Prizes = () => {
   return (
     <div id="prizes" className="prizes-main">
       <Container>
-      <div data-aos="slide-up" className='about-heading'>
-          <h1 className='heading'>PRIZES</h1>
-          <img className='line' src='/about_bg.png' width={"100%"} alt='' />
+        <div data-aos="slide-up" className="about-heading">
+          <h1 className="heading">PRIZES</h1>
+          <img className="line" src={bg} width={"100%"} alt="" />
         </div>
       </Container>
       <Container className="prize-container">
