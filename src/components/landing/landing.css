@@ -1,3 +1,10 @@
+.landing-btn:hover{
+  background-color: rgba(45, 53, 104, 0.8);
+
+
+}
+
+
 .test{
   display: flex;
   color: white !important;
@@ -121,14 +128,23 @@
 }
 
 .main-buttons button {
+
   font-size: 15px;
   font-weight: bold;
   border: #1c1f35;
-  background-color: rgba(83, 93, 161, 0.8);
   color: white;
   border-radius: 10px;
-  width: 8rem;
-  height: 2rem;
+  width:14rem;
+  height: 3rem;
+  margin:0.5rem;
+  
+  background: rgba( 255, 255, 255, 0.2 );
+  background-color: rgba(83, 93, 161, 0.8);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 2px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .name-2 {
@@ -195,7 +211,7 @@
     /* margin: 2rem auto; */
     width: 40%;
     /* display: flex; */
-    /* flex-direction: row; */
+    /* flex-direction: column; */
     /* justify-content: space-around; */
   }
 
@@ -231,5 +247,15 @@
     top: -50px;
     font-size: 115px;
     left: -10px;
+    }
+  }
+
+  
+  @media only screen and (max-width: 600px){
+    .main-buttons{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
