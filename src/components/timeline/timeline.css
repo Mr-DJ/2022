@@ -17,7 +17,7 @@ h2 {
 .timeline {
   display: flex;
   flex-direction: column;
-  margin: 20px auto;
+  margin: 0 auto;
   position: relative;
 }
 .timeline__event {
@@ -79,7 +79,7 @@ h2 {
   padding: 3px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  background: #fff;
+  background: #191a29;
   width: calc(40vw - 84px);
   border-radius: 0 6px 6px 0;
 }
@@ -154,8 +154,8 @@ h2 {
 
   /* align-items: center; */
   flex-basis: 60%;
+  color: #fff;
 }
-
 
 .timeline__event--type2:after {
   background: #555ac0;
@@ -206,10 +206,10 @@ h2 {
 }
 
 @media (max-width: 786px) {
-  .timeline__event__description{
+  .timeline__event__description {
     font-size: 0.8rem !important;
   }
-  .timeline__event__title{
+  .timeline__event__title {
     text-align: center;
   }
   .timeline__event {
@@ -247,7 +247,6 @@ h2 {
     border-radius: 6px 6px 0 0;
     margin: 0;
   }
-
 }
 @-webkit-keyframes fillLeft {
   100% {
@@ -277,5 +276,11 @@ h2 {
 @keyframes fillLeftOdd {
   100% {
     left: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .timeline-main {
+    height: 100vh;
   }
 }
