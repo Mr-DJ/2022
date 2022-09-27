@@ -1,8 +1,10 @@
 import React from "react";
 import "./faq.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Container from "react-bootstrap/esm/Container";
 import bg from "../../images/faq_bg.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import { data } from "../../data/faqData.js";
 
@@ -17,6 +19,10 @@ const FAQ = () => {
     setSelected(i);
   };
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div id="faq" className="faq-main">
       <Container className="faq-heading-container">
@@ -27,7 +33,7 @@ const FAQ = () => {
       </Container>
       <div className="accordion">
         {data.map((item, i) => (
-          <div className="item">
+          <div data-aos="slide-up" className="item">
             <div className="title" onClick={() => toggle(i)}>
               <h5 className="faq">{item.faq}</h5>
               <span className="ans">{selected === i ? "-" : "+"}</span>
