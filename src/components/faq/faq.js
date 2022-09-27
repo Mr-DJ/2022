@@ -26,21 +26,21 @@ const FAQ = () => {
   return (
     <div id="faq" className="faq-main">
       <Container className="faq-heading-container">
-        <div data-aos="slide-up" className="faq-heading-div">
-          <h1 className="faq-heading">FAQ</h1>
-          <img className="faq-img" src={bg} width={"100%"} alt="" />
+      <div data-aos="slide-up" className='about-heading'>
+          <h1 className='heading'>FAQ</h1>
+          <img className='line' src={bg} width={"100%"} alt='' />
         </div>
       </Container>
-      <div className="accordion">
+      <div data-aos="fade-up" className="accordion">
         {data.map((item, i) => (
-          <div data-aos="slide-up" className="item">
+          <div className="item">
             <div className="title" onClick={() => toggle(i)}>
               <h5 className="faq">{item.faq}</h5>
               <span className="ans">{selected === i ? "-" : "+"}</span>
             </div>
 
             <div className={selected === i ? "content show" : "content"}>
-              {selected === i && <hr className="faq-hr" />}
+              {/* {selected === i && <hr className="faq-hr" />} */}
               {item.ans}
             </div>
           </div>

@@ -9,9 +9,9 @@ const Prizes = () => {
   return (
     <div id="prizes" className="prizes-main">
       <Container>
-        <div data-aos="slide-up" className="prize-heading-div">
-          <h1 className="prize-heading">PRIZES</h1>
-          <img className="prize-img" src={bg} width={"100%"} alt="" />
+      <div data-aos="slide-up" className='about-heading'>
+          <h1 className='heading'>PRIZES</h1>
+          <img className='line' src='/about_bg.png' width={"100%"} alt='' />
         </div>
       </Container>
       <Container className="prize-container">
