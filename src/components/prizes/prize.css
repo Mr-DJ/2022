@@ -30,6 +30,7 @@
   padding: 4rem;
   transition: all 0.2s ease-in-out;
   border-radius: 44px;
+  background: #161723;
   box-shadow: -22px -22px 54px #0c121e, 22px 22px 54px #0c121e;
 }
 
@@ -67,10 +68,6 @@
   padding: 0.5rem;
 }
 
-#prize3 {
-  margin-top: 1rem;
-}
-
 @media only screen and (min-width: 992px) {
   .prizes-main {
     position: relative;
@@ -82,9 +79,5 @@
     justify-content: center;
     height: 100vh;
     padding: 1rem;
-  }
-
-  #prize3 {
-    margin-top: 0;
   }
 }
