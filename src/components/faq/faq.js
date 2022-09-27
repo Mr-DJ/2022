@@ -1,21 +1,47 @@
-import React, { Component } from "react";
+import React from "react";
 import "./faq.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import { useState } from "react";
+import Container from "react-bootstrap/esm/Container";
+import bg from "../../images/faq_bg.png";
 
-export default class FAQ extends Component {
-  render() {
-    return (
-      <div id="faq" className="faq-main">
-        <Container className="faq-container">
-          <Row>
-            <h1 className="faq-title"> FAQ </h1>
-          </Row>
-          <Row>
-            <h2 className="faq-details"> Coming Soon.... </h2>
-          </Row>
-        </Container>
+import { data } from "../../data/faqData.js";
+
+const FAQ = () => {
+  const [selected, setSelected] = useState(null);
+
+  const toggle = (i) => {
+    if (selected === i) {
+      return setSelected(null);
+    }
+
+    setSelected(i);
+  };
+
+  return (
+    <div id="faq" className="faq-main">
+      <Container className="faq-heading-container">
+        <div data-aos="slide-up" className="faq-heading-div">
+          <h1 className="faq-heading">FAQ</h1>
+          <img className="faq-img" src={bg} width={"100%"} alt="" />
+        </div>
+      </Container>
+      <div className="accordion">
+        {data.map((item, i) => (
+          <div className="item">
+            <div className="title" onClick={() => toggle(i)}>
+              <h5 className="faq">{item.faq}</h5>
+              <span className="ans">{selected === i ? "-" : "+"}</span>
+            </div>
+
+            <div className={selected === i ? "content show" : "content"}>
+              {selected === i && <hr className="faq-hr" />}
+              {item.ans}
+            </div>
+          </div>
+        ))}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default FAQ;
