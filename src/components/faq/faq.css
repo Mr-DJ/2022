@@ -118,7 +118,10 @@
     text-align: left;
   }
   .accordion {
-    width: 90%;
+    width: 80%;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   .item {
     text-align: left;
