@@ -11,7 +11,7 @@ const Prizes = () => {
       <Container>
         <div data-aos="slide-up" className="about-heading">
           <h1 className="heading">PRIZES</h1>
-          <img className="line" src={bg} width={"100%"} alt="" />
+          {/* <img className="line" src={bg} width={"100%"} alt="" /> */}
         </div>
       </Container>
       <Container className="prize-container">

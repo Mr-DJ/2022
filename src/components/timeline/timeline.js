@@ -13,7 +13,7 @@ export default class TimeLine extends Component {
         <Container>
           <div data-aos="slide-up" className="track-heading-div">
             <h1 className="track-heading">TIMELINE</h1>
-            <img className="track-img" src={bg} width={"100%"} alt="" />
+            {/* <img className="track-img" src={bg} width={"100%"} alt="" /> */}
           </div>
           <Container>
             <div data-aos="fade-up" id="timeline2" class="timeline">

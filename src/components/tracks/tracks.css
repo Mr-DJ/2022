@@ -13,8 +13,8 @@
 }
 
 .track-heading {
-  position: absolute;
-  text-align: end;
+  /* position: absolute; */
+  text-align: center;
   top: 2rem;
   right: 3.5rem;
   font-weight: 1000;
@@ -109,7 +109,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 1rem;
   }
 

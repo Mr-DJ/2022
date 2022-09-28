@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div className='footer'>
       <Container>
-        <div className='px-5 footer-icons'>
+        <div className='px-5 pt-2 footer-icons'>
           <a
             href='mailto:info.revahack@gmail.com'
             target='_blank'

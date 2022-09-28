@@ -7,11 +7,11 @@ import bg from "../../images/about_bg.png";
 
 const Themes = () => {
   return (
-    <div className="prizes-main">
+    <div className="themes-main">
       <Container>
-        <div data-aos="slide-up" className="about-heading">
+        <div data-aos="slide-up" className="themes-heading">
           <h1 className="heading">THEMES</h1>
-          <img className="line" src={bg} width={"100%"} alt="" />
+          {/* <img className="line" src={bg} width={"100%"} alt="" /> */}
         </div>
       </Container>
       <Container data-aos="fade-up" className="prize-container">

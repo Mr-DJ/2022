@@ -32,8 +32,8 @@
 }
 
 .faq-heading {
-  position: absolute;
-  text-align: start;
+  /* position: absolute; */
+  text-align: center;
   top: 2rem;
   left: 3.5rem;
   font-weight: 1000;
@@ -47,6 +47,9 @@
 }
 
 .accordion {
+  max-height: 80vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
   /* width: 74rem; */
   max-width: 80%;
   margin: 0 auto;
@@ -102,6 +105,10 @@
 }
 
 @media (max-width: 85rem) {
+  .title{
+    margin-right: 15px;
+  }
+  
   .faq-main {
     /* height: 370vh; */
 
@@ -114,14 +121,19 @@
     margin-left: 10%;
   }
   .faq {
-    /* font-size: 0.7rem; */
+    font-size: 0.8rem;
     text-align: left;
+    padding: 2px;
+  }
+  .content{
+    font-size: 0.7rem;
   }
   .accordion {
     width: 80%;
-    height: 90vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    margin-left: 33px;
+    /* height: 90vh; */
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
   }
   .item {
     text-align: left;

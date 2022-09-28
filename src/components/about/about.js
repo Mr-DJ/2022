@@ -15,7 +15,7 @@ const About = () => {
       <Container>
         <div data-aos="slide-up" className='about-heading'>
           <h1 className='heading'>ABOUT US</h1>
-          <img className='line' src='/about_bg.png' width={"100%"} alt='' />
+          {/* <img className='line' src='/about_bg.png' width={"100%"} alt='' /> */}
         </div>
         <Container>
           <div className='paragraph'>

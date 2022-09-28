@@ -26,12 +26,12 @@ const FAQ = () => {
   return (
     <div id="faq" className="faq-main">
       <Container className="faq-heading-container">
-      <div data-aos="slide-up" className='about-heading'>
+      <div data-aos="fade-up" className='faq-heading'>
           <h1 className='heading'>FAQ</h1>
-          <img className='line' src={bg} width={"100%"} alt='' />
+          {/* <img className='line' src={bg} width={"100%"} alt='' /> */}
         </div>
       </Container>
-      <div data-aos="fade-up" className="accordion">
+      <div className="accordion">
         {data.map((item, i) => (
           <div className="item">
             <div className="title" onClick={() => toggle(i)}>

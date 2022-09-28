@@ -9,12 +9,12 @@ export default class Sponsors extends Component {
     return (
       <div
         id="sponsors"
-        className="about-main d-flex align-items-center justify-content-center"
+        className="sponsors-main d-flex align-items-center justify-content-center"
       >
         <Container>
-          <div data-aos="slide-up" className="about-heading">
+          <div data-aos="slide-up" className="sponsors-heading">
             <h1 className="heading">SPONSORS</h1>
-            <img className="line" src="/about_bg.png" width={"100%"} alt="" />
+            {/* <img className="line" src="/about_bg.png" width={"100%"} alt="" /> */}
           </div>
           <Container data-aos="slide-up" className="sponserContainer d-flex flex-wrap">
             <img src={mlh} className="img" alt="Reva Logo" />

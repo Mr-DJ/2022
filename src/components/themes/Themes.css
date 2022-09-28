@@ -1,4 +1,4 @@
-.prizes-main {
+.themes-main {
   position: relative;
   background-color: #1c1f35;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
@@ -11,9 +11,9 @@
   position: relative;
 }
 
-.prize-heading {
-  position: absolute;
-  text-align: start;
+.themes-heading {
+  /* position: absolute; */
+  text-align: center;
   top: 2rem;
   left: 3.5rem;
   font-weight: 1000;
@@ -72,7 +72,7 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .prizes-main {
+  .themes-main {
     position: relative;
     background-color: #1c1f35;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
@@ -80,7 +80,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 1rem;
   }
 
