@@ -6,16 +6,21 @@
   padding-top: 5%;
 }
 
-.prize-heading-div {
+.theme-heading-div {
   height: 6rem;
   position: relative;
 }
 
+.line {
+  position: absolute;
+}
+
 .themes-heading {
-  /* position: absolute; */
-  text-align: center;
+  position: absolute;
+  text-align: start;
   top: 2rem;
-  left: 3.5rem;
+  right: 2rem;
+  /* left: 3.5rem; */
   font-weight: 1000;
   color: rgba(83, 93, 161, 0.8);
   width: 100%;
@@ -33,7 +38,7 @@
   border-radius: 44px;
   /* box-shadow: -22px -22px 54px #0c121e, 22px 22px 54px #0c121e; */
   box-shadow: 2px 2px 12px 3px rgba(255, 255, 255, 0.2);
-   cursor: pointer;     
+  cursor: pointer;
 }
 
 .prize-title {

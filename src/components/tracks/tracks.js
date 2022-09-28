@@ -19,7 +19,7 @@ const Tracks = () => {
       <Container className="track-heading-container">
         <div data-aos="slide-up" className="track-heading-div">
           <h1 className="track-heading">TRACKS</h1>
-          {/* <img className="track-img" src={bg} width={"100%"} alt="" /> */}
+          <img className="track-img" src={bg} width={"100%"} alt="" />
         </div>
       </Container>
       <Container className="track-card-container">

@@ -9,9 +9,9 @@ const Themes = () => {
   return (
     <div className="themes-main">
       <Container>
-        <div data-aos="slide-up" className="themes-heading">
-          <h1 className="heading">THEMES</h1>
-          {/* <img className="line" src={bg} width={"100%"} alt="" /> */}
+        <div data-aos="slide-up" className="track-heading-div">
+          <h1 className="themes-heading">THEMES</h1>
+          <img className="track-img" src={bg} width={"100%"} alt="" />
         </div>
       </Container>
       <Container data-aos="fade-up" className="prize-container">

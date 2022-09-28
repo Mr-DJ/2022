@@ -25,10 +25,10 @@ const FAQ = () => {
 
   return (
     <div id="faq" className="faq-main">
-      <Container className="faq-heading-container">
-      <div data-aos="fade-up" className='faq-heading'>
-          <h1 className='heading'>FAQ</h1>
-          {/* <img className='line' src={bg} width={"100%"} alt='' /> */}
+      <Container className="track-heading-container">
+        <div data-aos="slide-up" className="track-heading-div">
+          <h1 className="faq-heading">FAQ</h1>
+          <img className="track-img" src={bg} width={"100%"} alt="" />
         </div>
       </Container>
       <div className="accordion">

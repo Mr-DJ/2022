@@ -11,11 +11,12 @@
   position: relative;
 }
 
-.prize-heading {
+.prizes-heading {
   position: absolute;
   text-align: start;
   top: 2rem;
-  left: 3.5rem;
+  right: 1rem;
+  /* left: 3.5rem; */
   font-weight: 1000;
   color: rgba(83, 93, 161, 0.8);
   width: 100%;

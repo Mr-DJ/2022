@@ -25,18 +25,37 @@
   color: #fff;
 }
 
-.sponserContainer {
+.sponsers {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 3rem;
 }
 
-.img{
+.sponserContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img {
   padding: 2rem;
   max-width: 250px;
 }
 
+.sponsors-heading {
+  position: absolute;
+  text-align: start;
+  top: 2rem;
+  right: 5.5rem;
+  /* left: 4rem; */
+  font-weight: 1000;
+  color: rgba(83, 93, 161, 0.8);
+  width: 100%;
+  margin-left: auto;
+}
+
 @media only screen and (max-width: 992px) {
-  .img{
+  .img {
     width: 250px;
   }
 }

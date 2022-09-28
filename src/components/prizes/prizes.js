@@ -8,10 +8,10 @@ import "./prize.css";
 const Prizes = () => {
   return (
     <div id="prizes" className="prizes-main">
-      <Container>
-        <div data-aos="slide-up" className="about-heading">
-          <h1 className="heading">PRIZES</h1>
-          {/* <img className="line" src={bg} width={"100%"} alt="" /> */}
+      <Container className="track-heading-container">
+        <div data-aos="slide-up" className="track-heading-div">
+          <h1 className="prizes-heading">PRIZES</h1>
+          <img className="track-img" src={bg} width={"100%"} alt="" />
         </div>
       </Container>
       <Container className="prize-container">

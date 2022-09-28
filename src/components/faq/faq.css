@@ -5,6 +5,18 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 }
 
+.faq-heading {
+  position: absolute;
+  text-align: start;
+  top: 2rem;
+  /* right: 3.5rem; */
+  left: 2.5rem;
+  font-weight: 1000;
+  color: rgba(83, 93, 161, 0.8);
+  width: 100%;
+  margin-left: auto;
+}
+
 .faq-container {
   position: absolute;
   left: 50%;
@@ -29,17 +41,6 @@
 .faq-heading-div {
   height: 6rem;
   position: relative;
-}
-
-.faq-heading {
-  /* position: absolute; */
-  text-align: center;
-  top: 2rem;
-  left: 3.5rem;
-  font-weight: 1000;
-  color: rgba(83, 93, 161, 0.8);
-  width: 100%;
-  margin-left: auto;
 }
 
 .faq-img {
@@ -105,10 +106,10 @@
 }
 
 @media (max-width: 85rem) {
-  .title{
+  .title {
     margin-right: 15px;
   }
-  
+
   .faq-main {
     /* height: 370vh; */
 
@@ -125,7 +126,7 @@
     text-align: left;
     padding: 2px;
   }
-  .content{
+  .content {
     font-size: 0.7rem;
   }
   .accordion {
