@@ -14,10 +14,10 @@
 
 .track-heading {
   position: absolute;
-  text-align: end;
+  text-align: center;
   top: 2rem;
   /* right: 3.5rem; */
-  left: 1rem;
+  /* left: 1rem; */
   font-weight: 1000;
   color: rgba(83, 93, 161, 0.8);
   width: 100%;
@@ -122,5 +122,17 @@
     border-radius: 2rem;
     margin: 1.5rem 2.5rem;
     box-shadow: 2px 2px 12px 3px rgba(255, 255, 255, 0.2);
+  }
+
+  .track-heading {
+    position: absolute;
+    text-align: end;
+    top: 2rem;
+    /* right: 3.5rem; */
+    left: 1rem;
+    font-weight: 1000;
+    color: rgba(83, 93, 161, 0.8);
+    width: 100%;
+    margin-left: auto;
   }
 }

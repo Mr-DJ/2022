@@ -17,9 +17,9 @@
 
 .themes-heading {
   position: absolute;
-  text-align: start;
+  text-align: center;
   top: 2rem;
-  right: 2rem;
+  /* right: 2rem; */
   /* left: 3.5rem; */
   font-weight: 1000;
   color: rgba(83, 93, 161, 0.8);
@@ -87,6 +87,17 @@
     justify-content: center;
     /* height: 100vh; */
     padding: 1rem;
+  }
+  .themes-heading {
+    position: absolute;
+    text-align: start;
+    top: 2rem;
+    right: 2rem;
+    /* left: 3.5rem; */
+    font-weight: 1000;
+    color: rgba(83, 93, 161, 0.8);
+    width: 100%;
+    margin-left: auto;
   }
 
   #prize3 {

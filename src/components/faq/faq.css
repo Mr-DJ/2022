@@ -7,10 +7,10 @@
 
 .faq-heading {
   position: absolute;
-  text-align: start;
+  text-align: center;
   top: 2rem;
   /* right: 3.5rem; */
-  left: 2.5rem;
+  /* left: 2.5rem; */
   font-weight: 1000;
   color: rgba(83, 93, 161, 0.8);
   width: 100%;
@@ -60,9 +60,10 @@
   gap: 12px;
   overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
-.accordion::-webkit-scrollbar { /* WebKit */
+.accordion::-webkit-scrollbar {
+  /* WebKit */
   width: 0;
   height: 0;
 }
@@ -122,12 +123,7 @@
 
     padding: 5% 0.5%;
   }
-  .faq-heading {
-    font-size: 0.5rem;
-    color: darkslateblue;
-    padding: 1rem;
-    margin-left: 10%;
-  }
+
   .faq {
     font-size: 0.8rem;
     text-align: left;
@@ -150,5 +146,19 @@
     margin-left: 12.5%;
     /* margin-bottom: 1.5%; */
     padding: 0.7rem 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .faq-heading {
+    position: absolute;
+    text-align: start;
+    top: 2rem;
+    /* right: 3.5rem; */
+    left: 2.5rem;
+    font-weight: 1000;
+    color: rgba(83, 93, 161, 0.8);
+    width: 100%;
+    margin-left: auto;
   }
 }

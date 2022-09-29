@@ -14,9 +14,9 @@
 
 .about-heading {
   position: absolute;
-  text-align: start;
+  text-align: center;
   top: 2rem;
-  right: 1rem;
+  /* right: 1rem; */
   /* left: 2rem; */
   font-weight: 1000;
   color: rgba(83, 93, 161, 0.8);
@@ -85,5 +85,17 @@
   .paragraph h5 {
     font-size: medium !important;
     line-height: 1.2rem;
+  }
+
+  .about-heading {
+    position: absolute;
+    text-align: start;
+    top: 2rem;
+    right: 1rem;
+    /* left: 2rem; */
+    font-weight: 1000;
+    color: rgba(83, 93, 161, 0.8);
+    width: 100%;
+    margin-left: auto;
   }
 }

@@ -44,9 +44,9 @@
 
 .sponsors-heading {
   position: absolute;
-  text-align: start;
+  text-align: center;
   top: 2rem;
-  right: 5.5rem;
+  /* right: 5.5rem; */
   /* left: 4rem; */
   font-weight: 1000;
   color: rgba(83, 93, 161, 0.8);
@@ -54,8 +54,20 @@
   margin-left: auto;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
   .img {
     width: 250px;
+  }
+
+  .sponsors-heading {
+    position: absolute;
+    text-align: start;
+    top: 2rem;
+    right: 5.5rem;
+    /* left: 4rem; */
+    font-weight: 1000;
+    color: rgba(83, 93, 161, 0.8);
+    width: 100%;
+    margin-left: auto;
   }
 }
