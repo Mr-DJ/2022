@@ -55,9 +55,10 @@
   transition: all 0.2s;
 }
 
-.prizes {
+.themes {
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
+  
   flex-wrap: wrap;
   margin-top: 3rem;
   margin-bottom: 1rem;

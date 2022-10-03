@@ -16,7 +16,7 @@ const Themes = () => {
       </Container>
       <Container data-aos="fade-up" className="prize-container">
         {/* <Container className="prize-1"> */}
-        <Container className="prizes">
+        <Container className="themes">
           <div className="theme">
             {/* <h5 className="prize-title">More than Meta</h5> */}
             <p className="themes-amt">More than Meta</p>
@@ -29,6 +29,10 @@ const Themes = () => {
           <div className="theme">
             {/* <h5 className="prize-title">More than Media</h5> */}
             <p className="themes-amt">More than Media</p>
+          </div>
+          <div className="theme">
+            {/* <h5 className="prize-title">More than Metros</h5> */}
+            <p className="themes-amt">Sustainable Development Goals</p>
           </div>
         </Container>
       </Container>

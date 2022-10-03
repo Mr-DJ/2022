@@ -34,6 +34,12 @@ const Landing = () => {
         </div>
         {/* After Coming soon gets over */}
         <div data-aos='fade-up' className='main-buttons'>
+        {/* <div 
+	className="apply-button" 
+	data-hackathon-slug="reva-hack" 
+	data-button-theme="light"
+	style={{height: "44px",width: "312px"}}
+></div> */}
         <a href="https://forms.gle/JizDPzoqmiB4M1Y88" target="_blank" rel="noreferrer">
           <button className="landing-btn" style={{ letterSpacing : "2px" }}>Pre Register Now</button>
           </a>
