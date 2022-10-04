@@ -54,6 +54,12 @@
   margin-left: auto;
 }
 
+.sponser-title {
+  color: white;
+  text-shadow: 1px 1px 5px #fff;
+  text-align: center;
+}
+
 @media only screen and (min-width: 992px) {
   .img {
     width: 250px;
