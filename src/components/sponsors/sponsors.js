@@ -25,18 +25,33 @@ export default class Sponsors extends Component {
             </div>
           </Container>
           <Container data-aos="slide-up" className="sponsers d-flex flex-wrap">
-            <Container className="sponserContainer flex-wrap ">
-              <img src={mlh} className="img" alt="Reva Logo" />
-              <img src={logo} className="img" alt="Reva Logo" />
+            <Container>
+              <div>
+                <h3 className="sponser-title">Title Sponsors</h3>
+              </div>
+              <div className="sponserContainer flex-wrap ">
+                <img src={logo} className="img" alt="Reva Logo" />
+                <img src={mlh} className="img" alt="Reva Logo" />
+              </div>
             </Container>
-            <Container className="sponserContainer flex-wrap">
-              <img src={polygon} className="img" alt="Reva Logo" />
-              <img src={devfolio} className="img" alt="Reva Logo" />
+            <Container>
+              <div>
+                <h3 className="sponser-title">Tree</h3>
+              </div>
+              <div className="sponserContainer flex-wrap ">
+                <img src={polygon} className="img" alt="Reva Logo" />
+                <img src={devfolio} className="img" alt="Reva Logo" />
+              </div>
             </Container>
-            <Container className="sponserContainer flex-wrap">
-              <img src={solana} className="img" alt="Reva Logo" />
-              <img src={filecoin} className="img" alt="Reva Logo" />
-              <img src={replit} className="img" alt="Reva Logo" />
+            <Container>
+              <div>
+                <h3 className="sponser-title">Sapling</h3>
+              </div>
+              <div className="sponserContainer flex-wrap ">
+                <img src={solana} className="img" alt="Reva Logo" />
+                <img src={filecoin} className="img" alt="Reva Logo" />
+                <img src={replit} className="img" alt="Reva Logo" />
+              </div>
             </Container>
           </Container>
         </Container>
