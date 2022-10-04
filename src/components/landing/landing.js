@@ -26,7 +26,7 @@ const Landing = () => {
         <div data-aos='fade-up' className='name-2'>
           <Typewriter
             options={{
-              strings: ["Innovate For a Better Tomorrow..", "The Hack Is Back.."],
+              strings: ["Innovate For a Better Tomorrow", "The Hack Is Back"],
               autoStart: true,
               loop: true,
             }}
