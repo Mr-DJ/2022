@@ -190,10 +190,10 @@ border: 2px solid rgba( 255, 255, 255, 0.18 );
 
   
   .flux {
-    animation: flux 0.5s linear infinite;
-    -moz-animation: flux 0.5s linear infinite;
-    -webkit-animation: flux 0.5s linear infinite;
-    -o-animation: flux 0.5s linear infinite;
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
   }
   
   @keyframes flux {
@@ -281,7 +281,7 @@ border: 2px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .landing-main {
-  height: 100vh;
+  height: 90vh;
   background-color: #1c1f35;
 }
 
