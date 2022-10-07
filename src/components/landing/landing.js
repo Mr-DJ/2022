@@ -20,10 +20,12 @@ const Landing = () => {
             REVA Hack{" "}
           </div>
         </a> */}
-        <div className='sm-headings'>
-          <h4 className='flux'>International Hackathon</h4>
-          <h4 className='flux'>48 Hours Hybrid</h4>
-        </div>
+        {/* <div className='float'> */}
+          <div className='sm-headings'>
+            <h4 className='flux'>International Hackathon</h4>
+            <h4 className='flux'>48 Hours Hybrid</h4>
+          </div>
+        {/* </div> */}
         <h1 data-aos='fade-up' className='test'>
           REVA HACK
         </h1>
@@ -41,9 +43,7 @@ const Landing = () => {
           <div
             className='apply-button landing-btn'
             data-hackathon-slug='reva-hack'
-            data-button-theme='light'
-            >    
-            </div>
+            data-button-theme='light'></div>
           <a
             href='https://forms.gle/JizDPzoqmiB4M1Y88'
             target='_blank'
@@ -52,7 +52,7 @@ const Landing = () => {
               Pre Register Now
             </button>
           </a>
-          
+
           <a
             href='https://discord.gg/6Sv9ZdQ4er'
             target='_blank'
