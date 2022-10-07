@@ -163,8 +163,54 @@ border: 2px solid rgba( 255, 255, 255, 0.18 );
   letter-spacing: 4px;
 }
 
+.sm-headings{
+
+  display: flex;
+  /* width: max-content; */
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+  margin-bottom: 2rem;
+}
+.sm-headings > h4{
+  padding: 0 1rem;
+  /* font-size: 1.2rem !important; */
+}
+.flux {
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family: neon;
+  color: #426DFB;
+  font-size: 1.2rem;
+  /* line-height: 9vw; */
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+
 @media only screen and (min-width: 992px) {
 
+  
+  .flux {
+    animation: flux 0.5s linear infinite;
+    -moz-animation: flux 0.5s linear infinite;
+    -webkit-animation: flux 0.5s linear infinite;
+    -o-animation: flux 0.5s linear infinite;
+  }
+  
+  @keyframes flux {
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+      /* color: #28D7FE; */
+      color: white;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+      /* color: #146C80; */
+      color: white;
+    }
+  }
+
+  
   .test{
     color: white !important;
     font-family: Arial, Helvetica, sans-serif !important;
@@ -210,9 +256,10 @@ border: 2px solid rgba( 255, 255, 255, 0.18 );
   .main-buttons {
     /* margin: 2rem auto; */
     width: 40%;
-    /* display: flex; */
+    display: flex;
     /* flex-direction: column; */
-    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
   }
 
   .main-buttons button {
@@ -241,6 +288,9 @@ border: 2px solid rgba( 255, 255, 255, 0.18 );
 .atag{
   text-decoration: none;
 }
+
+
+
 @media only screen and (max-width: 992px) {
   
   .test::before {
@@ -252,6 +302,14 @@ border: 2px solid rgba( 255, 255, 255, 0.18 );
 
   
   @media only screen and (max-width: 600px){
+    .flux{
+      color: white;
+    }
+
+    .sm-headings{
+      margin-bottom: 6rem;
+      flex-direction: column;
+    }  
     .main-buttons{
       display: flex;
       flex-direction: column;
@@ -259,3 +317,11 @@ border: 2px solid rgba( 255, 255, 255, 0.18 );
       align-items: center;
     }
   }
+
+  /* copied */
+
+  @font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+  }
+    
