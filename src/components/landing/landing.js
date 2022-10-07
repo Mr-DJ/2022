@@ -44,14 +44,14 @@ const Landing = () => {
             className='apply-button landing-btn'
             data-hackathon-slug='reva-hack'
             data-button-theme='light'></div>
-          <a
+          {/* <a
             href='https://forms.gle/JizDPzoqmiB4M1Y88'
             target='_blank'
             rel='noreferrer'>
             <button className='landing-btn' style={{ letterSpacing: "2px" }}>
               Pre Register Now
             </button>
-          </a>
+          </a> */}
 
           <a
             href='https://discord.gg/6Sv9ZdQ4er'
