@@ -162,9 +162,10 @@
 }
 
 .sm-headings {
+  flex-direction: column;
   display: flex;
   /* width: max-content; */
-  justify-content: center;
+  /* justify-content: flex-start; */
   align-items: center;
   /* color: white; */
   margin-bottom: 2rem;
