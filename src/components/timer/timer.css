@@ -58,7 +58,7 @@
   }
   @media only screen and (min-width: 992px) {
     #timer {
-        font-size: 6.5em;
+        font-size: 3.5em;
         display: flex;
         flex-direction: row;
         justify-content: center;
