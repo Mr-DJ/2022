@@ -28,11 +28,11 @@ export default class TimeLine extends Component {
                   {/* <div class="timeline__event__title">HACK BEGINS!</div> */}
                   <div class="timeline__event__description">
                     <p>
-                      {"<Opening Ceremony />"}
+                      {"< Opening Ceremony />"}
                       <br />
-                      {"<Theme Announcement />"}
+                      {"< Theme Announcement />"}
                       <br />
-                      {"<Let The Hack Begin! />"}
+                      {"< Let The Hack Begin! />"}
                       <br />
                     </p>
                   </div>
@@ -50,7 +50,7 @@ export default class TimeLine extends Component {
                   {/* <div class="timeline__event__title">Lorem Ipsum</div> */}
                   <div class="timeline__event__description">
                     <p>
-                      {"<1st Segment of Submission />"}
+                      {" <1st Segment of Submission />"}
                       <br />
                     </p>
                   </div>
@@ -68,9 +68,9 @@ export default class TimeLine extends Component {
                   {/* <div class="timeline__event__title">Lorem Ipsum</div> */}
                   <div class="timeline__event__description">
                     <p>
-                      {"<Final Submission />"}
+                      {"< Final Submission />"}
                       <br />
-                      {"<Closing Ceremony />"}
+                      {"< Closing Ceremony />"}
                       <br />
                     </p>
                   </div>
@@ -82,13 +82,13 @@ export default class TimeLine extends Component {
                   <i class="lni lni-unlock"></i>
                 </div>
                 <div style={{ color: "white" }} class="timeline__event__date">
-                  ??-11-2022
+                  13-11-2022
                 </div>
                 <div class="timeline__event__content">
                   {/* <div class="timeline__event__title">Lorem Ipsum</div> */}
                   <div class="timeline__event__description">
                     <p>
-                      {"<Announcement of Results! />"}
+                      {"< Announcement of Results! />"}
                       <br />
                     </p>
                   </div>
