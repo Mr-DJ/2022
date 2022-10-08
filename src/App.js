@@ -7,6 +7,8 @@ import Sponsors from "./components/sponsors/sponsors.js";
 import FAQ from "./components/faq/faq.js";
 import Footer from "./components/footer/footer.js";
 import TimeLine from "./components/timeline/timeline.js";
+import Themes from "./components/themes/Themes.jsx";
+import Crew from "./components/crew/crew.jsx";
 
 function App() {
   return (
@@ -14,10 +16,12 @@ function App() {
       <BootNavbar />
       <Landing />
       <About />
+      <Themes />
       <Tracks />
       <Prizes />
       <TimeLine />
       <Sponsors />
+      <Crew />
       <FAQ />
       <Footer />
     </div>
