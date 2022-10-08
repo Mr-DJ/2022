@@ -45,7 +45,7 @@ const About = () => {
             <br />
             <h5 data-aos="slide-up">
               REVA HACK 2021 was a landmark event for the club with over 2500+
-              registered entrants and prices over INR 2.5 Cr. Reva HACK's
+              registered entrants and prices over INR 2.5 Cr. REVA HACK's
               schedule also accommodates pre-event workshops, learnathons, and
               semi-formal engagement events like Kahoots, stressbusters, etc.
               that come with goodies. Our mission at The Hackathon Club is to
