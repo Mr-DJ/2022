@@ -13,6 +13,11 @@ export default function Footer() {
   return (
     <div className='footer'>
       <Container>
+
+      <div className="map">
+        <h1>Contact Us</h1>
+        <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.7291172872892!2d77.63310401482352!3d13.116339290761024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19721a651fd3%3A0xdee225fe28f600f6!2sREVA%20University!5e0!3m2!1sen!2sin!4v1665244381917!5m2!1sen!2sin" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <div className='px-5 pt-2 footer-icons'>
           <a
             href='mailto:info.revahack@gmail.com'
@@ -48,7 +53,6 @@ export default function Footer() {
         </div>
 
       <div className="more-links">
-
         <a
           href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'
           target='_blank'
