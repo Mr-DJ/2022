@@ -6,7 +6,7 @@ import mlh from "../../images/mlh-logo.png";
 import bg from "../../images/prizes_bg.png";
 import polygon from "../../images/polygon.png";
 import devfolio from "../../images/devfolio.png";
-import solana from "../../images/solana.png";
+import solana from "../../images/Solana2.svg";
 import filecoin from "../../images/filecoin.png";
 import replit from "../../images/replit.png";
 
@@ -39,8 +39,20 @@ export default class Sponsors extends Component {
                 <h3 className="sponser-title">Tree</h3>
               </div>
               <div className="sponserContainer flex-wrap ">
-                <img src={polygon} className="img" alt="Reva Logo" />
-                <img src={devfolio} className="img" alt="Reva Logo" />
+                <a
+                  href="https://polygon.technology/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={polygon} className="img" alt="Reva Logo" />
+                </a>
+                <a
+                  href="https://devfolio.co/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={devfolio} className="img" alt="Reva Logo" />
+                </a>
               </div>
             </Container>
             <Container>
@@ -48,9 +60,27 @@ export default class Sponsors extends Component {
                 <h3 className="sponser-title">Sapling</h3>
               </div>
               <div className="sponserContainer flex-wrap ">
-                <img src={solana} className="img" alt="Reva Logo" />
-                <img src={filecoin} className="img" alt="Reva Logo" />
-                <img src={replit} className="img" alt="Reva Logo" />
+                <a
+                  href="https://solana.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={solana} className="img" alt="Reva Logo" />
+                </a>
+                <a
+                  href="https://filecoin.io/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={filecoin} className="img" alt="Reva Logo" />
+                </a>
+                <a
+                  href="https://replit.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img src={replit} className="img" alt="Reva Logo" />
+                </a>
               </div>
             </Container>
           </Container>

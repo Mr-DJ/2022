@@ -5,7 +5,7 @@ import ParticleBackground from "../../particleBackground";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import discord from "../../images/dc.png";
-
+import Timer from "../timer/timer";
 const Landing = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -70,6 +70,8 @@ const Landing = () => {
             </button>
           </a>
         </div>
+        <Timer/>
+
         <ParticleBackground />
       </div>
     </>
